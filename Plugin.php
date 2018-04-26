@@ -11,10 +11,10 @@ class Plugin extends Base
 		global $themePlusConfig;
 
 
-		// Check if config.php is exist
+		// Check if ConfigController.php is exist
 		// If not, get the default-Values
-		if (file_exists('plugins/Themeplus/config.php')) {
-			require_once('plugins/Themeplus/config.php');
+		if (file_exists('plugins/Themeplus/Controller/ConfigController.php')) {
+			require_once('plugins/Themeplus/Controller/ConfigController.php');
 		} else {
 			$themePlusConfig['theme'] = 'default';
 		}
@@ -40,27 +40,27 @@ class Plugin extends Base
 		if (isset($themePlusConfig['logo'])) {
 			$this->template->setTemplateOverride('header/title', 'themeplus:layout/header/title');
 		}
-        
+
         // Change the options
 		if (isset($themePlusConfig['user'])) {
 			$this->template->setTemplateOverride('header/user_dropdown', 'themeplus:layout/header/user_dropdown');
 		}
-        
+
         // Change the options
 		if (isset($themePlusConfig['notifications'])) {
 			$this->template->setTemplateOverride('header/user_notification', 'themeplus:layout/header/user_notification');
 		}
-        
+
         // Change the options
 		if (isset($themePlusConfig['creation'])) {
 			$this->template->setTemplateOverride('header/creation_dropdown', 'themeplus:layout/header/creation_dropdown');
 		}
-        
+
         // Change the options
 		if (isset($themePlusConfig['usericons'])) {
 			$this->template->setTemplateOverride('user_list/user_icons', 'themeplus:layout/user_icons');
 		}
-        
+
         // Change the dashboard
 		if (isset($themePlusConfig['dashboard'])) {
 			$this->template->setTemplateOverride('dashboard/layout', 'themeplus:layout/dashboard');
@@ -83,11 +83,11 @@ class Plugin extends Base
 
 
 
-	public function getPluginName()	{ 		 return 'Theme Plus - Custom by Dataprev 🤘🏾'; }
+	public function getPluginName()	{ 		 return 'Theme Plus - Custom by Dataprev'; }
 	public function getPluginAuthor() { 	 return 'Decio Benicio, Fabiano Rodrigues'; }
-	public function getPluginVersion() { 	 return '0.1.0 alpha'; }
+	public function getPluginVersion() { 	 return '0.2.0'; }
 	public function getPluginDescription() { return 'A fork from Philip Steffen - Original Plugin Theme Plus'; }
-//	public function getPluginHomepage() { 	 return 'https://github.com/phsteffen/kanboard-themeplus'; }
+	public function getPluginHomepage() { 	 return 'https://github.com/deciobenicio/kb-themeplus-stgray'; }
 
 
 }

@@ -13,48 +13,48 @@
         <?php endif ?>
 
         <?= $this->asset->colorCss() ?>
-        <?= $this->asset->css('assets/css/vendor.min.css') ?>
-        <?= $this->asset->css('assets/css/app.min.css') ?>
+        <?= $this->asset->css('Assets/css/vendor.min.css') ?>
+        <?= $this->asset->css('Assets/css/app.min.css') ?>
         <?= $this->asset->customCss() ?>
 
         <?php if (! isset($not_editable)): ?>
-            <?= $this->asset->js('assets/js/vendor.min.js') ?>
-            <?= $this->asset->js('assets/js/app.min.js') ?>
+            <?= $this->asset->js('Assets/js/vendor.min.js') ?>
+            <?= $this->asset->js('Assets/js/app.min.js') ?>
         <?php endif ?>
 
         <?= $this->hook->asset('css', 'template:layout:css') ?>
         <?= $this->hook->asset('js', 'template:layout:js') ?>
 
-        <link rel="icon" type="image/png" href="<?= $this->url->dir() ?>assets/img/favicon.png">
-        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>assets/img/touch-icon-iphone.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>assets/img/touch-icon-ipad.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>assets/img/touch-icon-iphone-retina.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>assets/img/touch-icon-ipad-retina.png">
+        <link rel="icon" type="image/png" href="<?= $this->url->dir() ?>Assets/img/favicon.png">
+        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>Assets/img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>Assets/img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>Assets/img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>Assets/img/touch-icon-ipad-retina.png">
 
         <?php if (!isset($themePlusConfig['favicon'])) : ?>
-        <link rel="icon" type="image/png" href="<?= $this->url->dir() ?>assets/img/favicon.png">
+        <link rel="icon" type="image/png" href="<?= $this->url->dir() ?>Assets/img/favicon.png">
         <?php else: ?>
-        <link rel="icon" type="image/png" href="<?= $this->url->dir() ?>plugins/Themeplus/assets/img/<?= $themePlusConfig['favicon'] ?>">
+        <link rel="icon" type="image/png" href="<?= $this->url->dir() ?>plugins/Themeplus/Assets/img/<?= $themePlusConfig['favicon'] ?>">
         <?php endif; ?>
         <?php if (!isset($themePlusConfig['apple-touch-icon'])) : ?>
-        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>assets/img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>Assets/img/touch-icon-iphone.png">
         <?php else: ?>
-        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>plugins/Themeplus/assets/img/<?= $themePlusConfig['apple-touch-icon'] ?>">
+        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>plugins/Themeplus/Assets/img/<?= $themePlusConfig['apple-touch-icon'] ?>">
         <?php endif; ?>
         <?php if (!isset($themePlusConfig['apple-touch-icon72x72'])) : ?>
-        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>assets/img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>Assets/img/touch-icon-ipad.png">
         <?php else: ?>
-        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>plugins/Themeplus/assets/img/<?= $themePlusConfig['apple-touch-icon72x72'] ?>">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>plugins/Themeplus/Assets/img/<?= $themePlusConfig['apple-touch-icon72x72'] ?>">
         <?php endif; ?>
         <?php if (!isset($themePlusConfig['apple-touch-icon114x114'])) : ?>
-        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>assets/img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>Assets/img/touch-icon-iphone-retina.png">
         <?php else: ?>
-        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>plugins/Themeplus/assets/img/<?= $themePlusConfig['apple-touch-icon114x114'] ?>">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>plugins/Themeplus/Assets/img/<?= $themePlusConfig['apple-touch-icon114x114'] ?>">
         <?php endif; ?>
         <?php if (!isset($themePlusConfig['apple-touch-icon144x144'])) : ?>
-        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>assets/img/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>Assets/img/touch-icon-ipad-retina.png">
         <?php else: ?>
-        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>plugins/Themeplus/assets/img/<?= $themePlusConfig['apple-touch-icon144x144'] ?>">
+        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>plugins/Themeplus/Assets/img/<?= $themePlusConfig['apple-touch-icon144x144'] ?>">
         <?php endif; ?>
 
 

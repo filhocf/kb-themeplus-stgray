@@ -46,28 +46,28 @@ This is a fork from [Themeplus](https://github.com/phsteffen/kanboard-themeplus)
 
 Mobile Version :-D
 
-![Mockup Iphone 6](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/iphone6-mockup.jpg)
+![Mockup Iphone 6](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/iphone6-mockup.jpg)
 
 
 ### Dashboard
 
-![Screenshot dashboard-mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/dashboard-mobile.png)
+![Screenshot dashboard-mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/dashboard-mobile.png)
 
-![Screenshot dashboard](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/dashboard.png)
+![Screenshot dashboard](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/dashboard.png)
 
 ### Board
 
-![Screenshot board mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/board-mobile.png)
+![Screenshot board mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/board-mobile.png)
 
-![Screenshot board](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/board.png)
+![Screenshot board](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/board.png)
 
 
 ### Task Modal
 
-![Screenshot task mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/task.png)
+![Screenshot task mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/task.png)
 
 ### Tasks Lists
 
-![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/list-tasks-mobile.png)
+![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/list-tasks-mobile.png)
 
-![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/list-tasks.png)
+![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/Screenshots/list-tasks.png)
